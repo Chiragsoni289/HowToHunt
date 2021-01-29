@@ -36,6 +36,14 @@ http://site.com/secret => 200
 X-Forwarded-For: 127.0.0.1
 ```
 
+Some New Tips Collected from Twitter
+
+1-) site.com/Endpoint >> 403
+Capture Request > Send to Repeater
+Add this header
+Referer: https://site.com/Endpoint> Send
+200- This worked for someone xD
+
 ### Tools
 Here is a Tool I found on twitter.
 * [https://github.com/yunemse48/403bypasser](https://github.com/yunemse48/403bypasser)
